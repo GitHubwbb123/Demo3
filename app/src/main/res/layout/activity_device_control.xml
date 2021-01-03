@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.qmuiteam.qmui.widget.QMUITopBar
+            android:id="@+id/topBarCon"
+            android:layout_width="match_parent"
+            app:qmui_topbar_bg_color="@color/colorAccent"
+            android:layout_height="?attr/qmui_topbar_height"
+            app:qmui_topbar_need_separator="true">
+        </com.qmuiteam.qmui.widget.QMUITopBar>
+
+    <Switch
+        android:id="@+id/Do1"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/do1"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Do2"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/do2"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Do3"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/do3"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Do4"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/do4"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Do5"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/do5"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Do6"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/do6"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Ai1"
+        android:layout_width="277dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="328dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Ai2"
+        android:layout_width="277dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Di1"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="false"
+        android:text="@string/di1"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Di2"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="false"
+        android:text="@string/di2"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/Di3"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="false"
+        android:text="@string/di3"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demo3</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="di1">Di1</string>
+    <string name="di2">Di2</string>
+    <string name="di3">Di3</string>
+    <string name="di4">Di4</string>
+    <string name="di5">Di5</string>
+    <string name="di6">Di6</string>
+    <string name="di7">Di7</string>
+    <string name="di8">Di8</string>
+
+    <string name="do1">Do1</string>
+    <string name="do2">Do2</string>
+    <string name="do3">Do3</string>
+    <string name="do4">Do4</string>
+    <string name="do5">Do5</string>
+    <string name="do6">Do6</string>
+    <string name="do7">Do7</string>
+    <string name="do8">Do8</string>
+
+</resources>
